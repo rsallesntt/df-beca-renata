@@ -1,0 +1,10 @@
+{
+	"name": "BecaKeyVaultAzure",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kvbecarenata.vault.azure.net/"
+		}
+	}
+}
