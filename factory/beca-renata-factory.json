@@ -1,0 +1,9 @@
+{
+	"name": "beca-renata-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77cb0529-f864-4720-9bb3-b8260dde245a",
+		"tenantId": "a49e2ad8-3b8d-40e8-8c45-1505c9a243d3"
+	}
+}
