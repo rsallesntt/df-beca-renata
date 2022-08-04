@@ -80,7 +80,14 @@
 											"secureOutput": false,
 											"secureInput": false
 										},
-										"userProperties": []
+										"userProperties": [],
+										"typeProperties": {
+											"notebookPath": "/Users/rsalless@emeal.nttdata.com/Beca/csv_ingestion"
+										},
+										"linkedServiceName": {
+											"referenceName": "BecaAzureDatabricks",
+											"type": "LinkedServiceReference"
+										}
 									}
 								]
 							}
