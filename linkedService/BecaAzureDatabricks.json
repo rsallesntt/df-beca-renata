@@ -1,0 +1,20 @@
+{
+	"name": "BecaAzureDatabricks",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-6347156145735195.15.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "BecaKeyVaultAzure",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kv-databricks",
+				"secretVersion": "0f663aaf29d44333ad938df13b8cf6f2"
+			},
+			"existingClusterId": "0804-140340-fikkby3c"
+		}
+	}
+}
