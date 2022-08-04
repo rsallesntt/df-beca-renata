@@ -82,7 +82,16 @@
 										},
 										"userProperties": [],
 										"typeProperties": {
-											"notebookPath": "/Users/rsalless@emeal.nttdata.com/Beca/csv_ingestion"
+											"notebookPath": "/Users/rsalless@emeal.nttdata.com/Beca/csv_ingestion",
+											"baseParameters": {
+												"file_name": {
+													"value": "@item().fileName",
+													"type": "Expression"
+												},
+												"table_name": "@item().table",
+												"database": "@item().database",
+												"delimiter": "@item().delimiter"
+											}
 										},
 										"linkedServiceName": {
 											"referenceName": "BecaAzureDatabricks",
