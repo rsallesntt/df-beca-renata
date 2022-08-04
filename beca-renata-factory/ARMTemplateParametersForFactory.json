@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "beca-renata-factory"
+		},
+		"BecaDataLakeAzure_properties_typeProperties_url": {
+			"value": "https://becarenata.dfs.core.windows.net/"
+		},
+		"BecaKeyVaultAzure_properties_typeProperties_baseUrl": {
+			"value": "https://kvbecarenata.vault.azure.net/"
+		}
+	}
+}
